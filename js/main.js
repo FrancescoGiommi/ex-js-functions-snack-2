@@ -24,3 +24,18 @@ console.log(sommaAnonima(5, 5));
 const sommaArrow = (num1, num2) => num1 + num2;
 
 console.log(sommaArrow(2, 2));
+
+//! Snack 2
+/* Crea una arrow function che calcola il quadrato di un numero.
+
+    Definisci una funzione chiamata quadrato che accetta un numero e restituisce il suo quadrato in una sola riga.*/
+
+/* Arrow function */
+const squareNumber = (num) => num * num;
+console.log(squareNumber(10));
+
+/* Funzione quadrato */
+function quadrato(num) {
+  return num * num;
+}
+console.log(quadrato(5));
