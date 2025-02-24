@@ -31,11 +31,20 @@ console.log(sommaArrow(2, 2));
     Definisci una funzione chiamata quadrato che accetta un numero e restituisce il suo quadrato in una sola riga.*/
 
 /* Arrow function */
-const squareNumber = (num) => num * num;
-console.log(squareNumber(10));
+const quadrato = (num) => num * num;
+console.log(quadrato(10));
 
 //! Snack 3
 /* Crea una funzione eseguiOperazione
 
     Definisci una funzione eseguiOperazione che accetta tre parametri: due numeri e una funzione operatore (callback). 
     La funzione deve eseguire l'operazione fornita sui due numeri. */
+
+const moltiplicazione = (num1, num2) => num1 * num2;
+
+function eseguiOperazione(num1, num2, operazione) {
+  return operazione(num1, num2);
+}
+
+console.log(eseguiOperazione(3, 5, somma));
+console.log(eseguiOperazione(6, 5, moltiplicazione));
