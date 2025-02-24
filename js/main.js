@@ -34,8 +34,8 @@ console.log(sommaArrow(2, 2));
 const squareNumber = (num) => num * num;
 console.log(squareNumber(10));
 
-/* Funzione quadrato */
-function quadrato(num) {
-  return num * num;
-}
-console.log(quadrato(5));
+//! Snack 3
+/* Crea una funzione eseguiOperazione
+
+    Definisci una funzione eseguiOperazione che accetta tre parametri: due numeri e una funzione operatore (callback). 
+    La funzione deve eseguire l'operazione fornita sui due numeri. */
