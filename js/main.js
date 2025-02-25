@@ -62,7 +62,7 @@ function creaTimer(tempo) {
   };
 }
 const timer = creaTimer(1000);
-console.log(timer());
+timer();
 
 //! Snack 5
 /* Crea una funzione stampaOgniSecondo con setInterval.
@@ -132,6 +132,6 @@ function contoAllaRovescia(num) {
     );
   };
 }
-const countdown = contoAllaRovescia(10);
+// const countdown = contoAllaRovescia(10);
 
-countdown();
+// countdown();
